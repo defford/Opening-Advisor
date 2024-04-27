@@ -80,7 +80,7 @@ def summarize_opening_families(df):
     
     return summary_family_df
 # Main execution
-username = 'Ryanp55'
+username = 'rvvr4'
 games = fetch_games(client, username)
 df = prepare_dataframe(games, username)
 opening_summary = analyze_openings(df)
